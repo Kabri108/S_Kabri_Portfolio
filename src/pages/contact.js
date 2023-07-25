@@ -2,9 +2,9 @@ import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import React, { useState } from 'react'
-import {motion} from "framer-motion"
 import TransitionEfffect from '@/components/TransitionEfffect'
-const contact = () => {
+
+const Contact = () => {
 
   const [name, setName]=useState('')
   const [email,setEmail]=useState('')
@@ -47,7 +47,7 @@ const contact = () => {
     <>
       <Head>
         <title>Skabri | Contact Page</title>
-        <meta name='contact' content='contact me' />
+        <meta name='Contact' content='contact me' />
       </Head>
       <TransitionEfffect/>
       <main className='flex w-full flex-col items-center justify-center'>
@@ -87,5 +87,5 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
 

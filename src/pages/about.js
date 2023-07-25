@@ -2,7 +2,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
-import aboutPic from "../../public/images/about.jpeg"
+import aboutPic from '../../public/images/about.jpeg'
 import AnimatedText from '@/components/AnimatedText'
 import Skills from '@/components/Skills'
 import Expreances from '@/components/Expreances'
@@ -16,7 +16,7 @@ const about = () => {
         <title>SKabri | About page</title>
         <meta name="description" content='any description' />
       </Head>
-      <TransitionEfffect/>
+      <TransitionEfffect />
       <main className='flex w-full flex-col items-center justify-center'>
         <Layout className='pt-10 md:pt-8 sm:pt-6'>
           <div className='md:flex flex-row sm:flex-col sm:items-center' >
@@ -35,7 +35,7 @@ const about = () => {
               <Image src={aboutPic} alt='do you want to know about me' />
             </div>
           </div>
-          <Education/>
+          <Education />
           <Skills />
           <Expreances />
         </Layout>
