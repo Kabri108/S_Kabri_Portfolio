@@ -1,5 +1,5 @@
 require('dotenv').config();
-export default function(req,res){
+export default function nodemail(req,res){
     
     let nodemailer= require('nodemailer')
     const transporter = nodemailer.createTransport({
@@ -37,5 +37,3 @@ export const config = {
     },
 }
 
-
-// 

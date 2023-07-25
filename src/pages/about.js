@@ -29,7 +29,7 @@ const about = () => {
             <div className='w-1/2 md:w-full'>
               <p className='font-medium'>"Hello! I am a skilled and dedicated <b>web developer with 1 years of experience</b> in creating dynamic and user-friendly websites. I have a strong passion for technology and a deep understanding of the latest web development trends and best practices.</p>
               <p className='font-medium'>Throughout my career, I have successfully designed and developed numerous websites, ranging from small business sites to large e-commerce platforms. I specialize in front-end development, utilizing HTML, CSS, and JavaScript to bring captivating designs to life. I am also proficient in back-end technologies such as Mongoose and MySQL, allowing me to create robust and secure web applications.</p>
-              <p className='font-medium'>If you're looking for a passionate web developer who can transform your ideas into stunning and functional websites, I'd love to hear from you. "Let's collaborate and create something amazing together!"</p>
+              <p className='font-medium'>If you are looking for a passionate web developer who can transform your ideas into stunning and functional websites, I'd love to hear from you. "Let collaborate and create something amazing together!"</p>
             </div>
             <div className='w-1/3 md:hidden '>
               <Image src={aboutPic} alt='do you want to know about me' />

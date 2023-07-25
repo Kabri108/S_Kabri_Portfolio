@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ManComIcon, CssIcon, HtmlIcon, MongoDbIcon, NextJsIcon, NodeJsIcon, ReactjsIcon } from './Icons';

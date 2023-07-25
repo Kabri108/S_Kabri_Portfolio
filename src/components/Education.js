@@ -45,13 +45,13 @@ const Education = () => {
             examname="Secondary Education"
             school="Garden Reach Mudiali High School (H.S)"
             time="Year:2019"
-            subject='Physics, chemistry, Math & Biology are the main subjects.  '
+            subject='Physics, chemistry, Math and Biology are the main subjects.  '
             grade="80.14%"
           />
           <Details
             examname="Higher Secondary (H.S)"
             school="Garden Reach Mudiali High School (H.S)"
-            subject='Physics, chemistry, Math & Biology are the main subjects.  '
+            subject='Physics, chemistry, Math and Biology are the main subjects.  '
             time="Year:2021"
             grade="78.6%"
           />
