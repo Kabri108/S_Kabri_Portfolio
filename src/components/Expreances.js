@@ -8,7 +8,7 @@ const Details = ({ position, company, time, addres, work }) => {
     <li ref={ref} className='my-8 flex flex-col first:mt-0 last:mb-0 items-center justify-center w-[60%] md:w-[80%] shadow-2xl'>
       <LiIcon reference={ref}/>
       <div className='p-2'>
-        <h3 className='text-white font-semibold'>{position};<a href='' className=' text-yellow-200'>@{company}</a></h3>
+        <h3 className='text-white font-semibold'>{position}<a href='' className=' text-yellow-200'>@{company}</a></h3>
         <span className=' text-yellow-100 xs:text-sm'>
           {time} | {addres}
         </span>
