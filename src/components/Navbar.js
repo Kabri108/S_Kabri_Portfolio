@@ -19,7 +19,7 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const Navbar = () => {
   return (
-    <header className=' font-medium flex items-center justify-around w-full py-5  text-White  bg-pink-800 md:justify-center md:z-30 md:sticky md:top-96 md:rounded-full   md:backdrop-blur-sm md:border-2  md:bg-transparent md:w-max md:m-auto 
+    <header className=' font-medium flex items-center justify-around w-full py-5  text-White  bg-pink-800 md:justify-center md:z-30 md:sticky md:top-2 md:rounded-full   md:backdrop-blur-sm md:border-2  md:bg-transparent md:w-max md:m-auto 
     md:p-2'>
       <div className='flex flex-row justify-around w-full items-center sm:hidden sm:py-2'>
         <nav>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link href='https://www.linkedin.com/in/sayantan-kabri-9907b7238/' className=' transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110'><IconGithub /> </Link>
         </nav>
       </div>
-      <div className='flex flex-row items-center mx-2 2xl:hidden  sm:inline-flex   '>
+      <div className='flex flex-row items-center mx-2 2xl:hidden  sm:inline-flex '>
         <Link href="/" className='mr-4 '><IconHome/></Link>
         <Link href="/about"  className='mr-4 '><AboutIcon/></Link>
         <Link href="/projects"  className='mr-4'><ProjectIcon/></Link>
