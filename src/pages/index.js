@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import ProfilePic from "../../public/Images/ProfilePic.jpeg"
+import ProfilePic from "@";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { DownloadIcon, HelloHandIcon } from "@/components/Icons";
