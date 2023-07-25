@@ -14,7 +14,7 @@ const about = () => {
     <>
       <Head>
         <title>SKabri | About page</title>
-        <meta name="description" content='any description' />
+        <meta name='description' content='any description' />
       </Head>
       <TransitionEfffect />
       <main className='flex w-full flex-col items-center justify-center'>
