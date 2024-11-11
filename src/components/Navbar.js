@@ -61,7 +61,7 @@ const Navbar = () => {
             <MailIcon />{' '}
           </Link>
           <Link
-            href="https://www.linkedin.com/in/sayantan-kabri-9907b7238/"
+            href="https://github.com/Kabri108"
             className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
           >
             <IconGithubnav />{' '}
