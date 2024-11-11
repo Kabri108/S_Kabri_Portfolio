@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ManComIcon, CssIcon, HtmlIcon, MongoDbIcon, NextJsIcon, NodeJsIcon, ReactjsIcon } from './Icons';
+import about1 from '../../public/images/about1.png'
 
 const Skill=({icon,x,y})=>{
   return(

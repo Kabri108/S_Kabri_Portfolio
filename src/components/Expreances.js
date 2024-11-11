@@ -5,15 +5,17 @@ import LiIcon from './LiIcon'
 const Details = ({ position, company, time, addres, work }) => {
   const ref=useRef(null);
   return (
-    <li ref={ref} className='my-8 flex flex-col first:mt-0 last:mb-0 items-center justify-center w-[60%] md:w-[80%] shadow-2xl'>
-      <LiIcon reference={ref}/>
-      <div className='p-2'>
-        <h3 className='text-white font-semibold'>{position}<a href='' className=' text-yellow-200'>@{company}</a></h3>
-        <span className=' text-yellow-100 xs:text-sm'>
+    <li ref={ref} className='my-8 flex flex-col first:mt-0 last:mb-0 items-center justify-center w-[60%] md:w-[80%] shadow-2xl bg-gray-800 rounded-bl-2xl rounded-tr-2xl border '>
+       <LiIcon reference={ref}/>
+      <div className='p-4 flex flex-col gap-2'>
+        <h3 className='text-gray-400 font-semibold'>🥇{position}</h3>
+        <hr />
+        <span className=' text-white text-sm'>{company}</span>
+        <span className=' text-yellow-600 text-xs'>
           {time} | {addres}
         </span>
-        <p className='text-white md:text-sm'>
-          {work}
+        <p className='text-gray-300 text-sm '>
+        📊 {work}
         </p>
       </div>
     </li>
@@ -38,25 +40,11 @@ const Expreances = () => {
          
         <ul className='w-full flex flex-col items-center justify-center ml-4 xs:ml-2'>
           <Details
-            position="web devloper"
-            company="Google"
+            position="Full Stack devloper"
+            company="Personal Project"
             time="2024-present"
-            addres="Noida"
-            work="as a web devloper in a fromtent projectorem ipsum dolor sit amet consectetur adipisicing elit. Qui nesciunt libero odio."
-          />
-          <Details
-            position="web devloper"
-            company="Facebook"
-            time="winter 2023"
-            addres="Noida"
-            work="as a web devloper in a fromtent projectorem ipsum dolor sit amet consectetur adipisicing elit. Qui nesciunt libero odio."
-          />
-          <Details
-            position="web devloper"
-            company="Adobe"
-            time="2020-2021"
-            addres="Noida"
-            work="as a web devloper in a fromtent projectorem ipsum dolor sit amet consectetur adipisicing elit. Qui nesciunt libero odio."
+            addres="Kolkata"
+            work="Work on my real life base projects "
           />
         
         </ul>

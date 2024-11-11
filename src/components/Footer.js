@@ -4,7 +4,7 @@ import Layout from './Layout'
 
 const Footer = () => {
   return (
-    <footer className='w-full border-t-2 border-solid border-Dark_gray text-Medium text-lg sm:text-base '>
+    <footer className=' relative w-full border-2 border-solid border-Dark_gray text-Medium text-lg sm:text-base '>
       <Layout className='py-8 flex items-center justify-between ld:flex-col ld-py-6'>
         <span>{new Date().getFullYear()} &copy; All Rights reserved</span>
         <Link href="/">&#9829;SKabri</Link>
