@@ -48,7 +48,7 @@ export default function Home() {
               </article>
               <div className="flex items-center md:justify-center mt-2 md:self-center ld:self-center">
                 <Link
-                  href="/resume.pdf"
+                  href="/images/skresume.pdf"
                   target={'_blank'}
                   className="flex items-center bg-Charcoal text-white p-2 px-4 text-lg font-semibold rounded-lg hover:bg-transparent border-2 hover:border-Charcoal mr-2 md:p-2 md:px-2 md:text-base shadow-lg"
                   download={true}
@@ -66,7 +66,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className=" mt-10 ">
-                <Link href="/about">Know more <span className='p-2 font-bold border-b-2 border-l-2 rounded hover:text-white hover:bg-gray-600'>About Me😊</span></Link>
+                <Link href="/about">Know more <span className='p-2 font-bold border-b-2 border-l-2 rounded hover:text-white hover:bg-gray-600 text-xl'>About Me😊</span></Link>
               </div>
             </div>
           </div>

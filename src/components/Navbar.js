@@ -29,7 +29,7 @@ const CustomLink = ({ href, title, className = '' }) => {
 const Navbar = () => {
   return (
     <header className="sticky text-white p-4 shadow-md z-10  top-0 flex items-center justify-around ">
-      <Image src={logo} alt="S Kabri" className="w-14" />
+      <Link href="/"><Image src={logo} alt="S Kabri" className="w-14" /></Link>
       <nav>
         <CustomLink href="/" title="Home" className="ml-4 md:hidden" />
         <CustomLink href="/about" title="About" className="mx-4" />
