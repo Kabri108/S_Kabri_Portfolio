@@ -2,16 +2,8 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import {
-  IconGithub,
-  IconHome,
   LinkedInIcon,
   MailIcon,
-  IconPhoneMessageOutline,
-  SkillManIcon,
-  ProjectIcon,
-  SvgComponent,
-  IconWhatsapp,
-  AboutIcon,
   IconGithubnav,
 } from './Icons';
 
